@@ -123,6 +123,7 @@ extension ViewController {
                         if success {
                           //TODO: User authenticated successfully, take appropriate action
                             // completion()
+                            print("User was authenticated correctly")
                         } else {
                           //TODO: User did not authenticate successfully, look at error and take appropriate action
                           guard let error = evaluateError else { return }
