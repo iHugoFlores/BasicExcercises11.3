@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "A color"; ObjectID = "00F-2X-q4V"; */
+"00F-2X-q4V.text" = "A color";
+
+/* Class = "UISegmentedControl"; DNF-tF-Xs3.segmentTitles[0] = "Blue"; ObjectID = "DNF-tF-Xs3"; */
+"DNF-tF-Xs3.segmentTitles[0]" = "Blue";
+
+/* Class = "UISegmentedControl"; DNF-tF-Xs3.segmentTitles[1] = "Green"; ObjectID = "DNF-tF-Xs3"; */
+"DNF-tF-Xs3.segmentTitles[1]" = "Green";
+
+/* Class = "UISegmentedControl"; DNF-tF-Xs3.segmentTitles[2] = "Gray"; ObjectID = "DNF-tF-Xs3"; */
+"DNF-tF-Xs3.segmentTitles[2]" = "Gray";
+
+/* Class = "UIView"; accessibilityLabel = "The blue"; ObjectID = "MLo-vW-yzJ"; */
+"MLo-vW-yzJ.accessibilityLabel" = "The blue";
+
+/* Class = "UIView"; accessibilityLabel = "A gray view"; ObjectID = "aBP-Dz-gXu"; */
+"aBP-Dz-gXu.accessibilityLabel" = "A gray view";
+
+/* Class = "UIView"; accessibilityLabel = "A green view"; ObjectID = "ibO-iV-KWz"; */
+"ibO-iV-KWz.accessibilityLabel" = "A green view";

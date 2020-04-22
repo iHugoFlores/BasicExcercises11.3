@@ -1,0 +1,18 @@
+
+/* Class = "UISegmentedControl"; DNF-tF-Xs3.segmentTitles[0] = "Blue"; ObjectID = "DNF-tF-Xs3"; */
+"DNF-tF-Xs3.segmentTitles[0]" = "neelam";
+
+/* Class = "UISegmentedControl"; DNF-tF-Xs3.segmentTitles[1] = "Green"; ObjectID = "DNF-tF-Xs3"; */
+"DNF-tF-Xs3.segmentTitles[1]" = "pacha";
+
+/* Class = "UISegmentedControl"; DNF-tF-Xs3.segmentTitles[2] = "Gray"; ObjectID = "DNF-tF-Xs3"; */
+"DNF-tF-Xs3.segmentTitles[2]" = "rangu";
+
+/* Class = "UIView"; accessibilityLabel = "The blue"; ObjectID = "MLo-vW-yzJ"; */
+"MLo-vW-yzJ.accessibilityLabel" = "The neelam";
+
+/* Class = "UIView"; accessibilityLabel = "A gray view"; ObjectID = "aBP-Dz-gXu"; */
+"aBP-Dz-gXu.accessibilityLabel" = "A pacha";
+
+/* Class = "UIView"; accessibilityLabel = "A green view"; ObjectID = "ibO-iV-KWz"; */
+"ibO-iV-KWz.accessibilityLabel" = "A rangu";

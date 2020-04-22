@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AccessOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DNF-tF-Xs3">
+                                <rect key="frame" x="122" y="831" width="170" height="32"/>
+                                <segments>
+                                    <segment title="Blue"/>
+                                    <segment title="Green"/>
+                                    <segment title="Gray"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="wfI-zA-2D8"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLo-vW-yzJ">
+                                <rect key="frame" x="0.0" y="62" width="414" height="771"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="blue" label="The blue">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ibO-iV-KWz">
+                                <rect key="frame" x="0.0" y="44" width="414" height="789"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="green" label="A green view">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBP-Dz-gXu">
+                                <rect key="frame" x="0.0" y="44" width="414" height="789"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00F-2X-q4V">
+                                        <rect key="frame" x="180" y="384.5" width="54" height="20.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="gray" label="A gray view">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstItem="00F-2X-q4V" firstAttribute="centerY" secondItem="aBP-Dz-gXu" secondAttribute="centerY" id="VqR-Y4-19V"/>
+                                    <constraint firstItem="00F-2X-q4V" firstAttribute="centerX" secondItem="aBP-Dz-gXu" secondAttribute="centerX" id="gek-XO-ygw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aBP-Dz-gXu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KkQ-UB-flr"/>
+                            <constraint firstItem="aBP-Dz-gXu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ODR-Ca-2JR"/>
+                            <constraint firstItem="DNF-tF-Xs3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OS4-Is-tyn"/>
+                            <constraint firstItem="ibO-iV-KWz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UmK-I2-gjN"/>
+                            <constraint firstItem="ibO-iV-KWz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="frw-XL-AmD"/>
+                            <constraint firstItem="aBP-Dz-gXu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oy6-u6-Jez"/>
+                            <constraint firstItem="DNF-tF-Xs3" firstAttribute="top" secondItem="ibO-iV-KWz" secondAttribute="bottom" constant="-2" id="p9S-0M-1Jg"/>
+                            <constraint firstItem="ibO-iV-KWz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pA7-ME-WPH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aBP-Dz-gXu" secondAttribute="bottom" constant="29" id="pcA-y0-bqm"/>
+                            <constraint firstItem="DNF-tF-Xs3" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="whk-cX-2ta"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="blueView" destination="MLo-vW-yzJ" id="E5H-NW-Pqh"/>
+                        <outlet property="grayView" destination="aBP-Dz-gXu" id="m7f-An-Y75"/>
+                        <outlet property="greenView" destination="ibO-iV-KWz" id="KeC-NA-cbJ"/>
+                        <outlet property="segmentedControl" destination="DNF-tF-Xs3" id="6Xy-wb-nTb"/>
+                        <outlet property="testButton" destination="00F-2X-q4V" id="P7b-05-jLY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+</document>

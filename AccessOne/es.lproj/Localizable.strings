@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  AccessOne
+
+  Created by Josue Arambula on 4/21/20.
+  Copyright © 2020 Josue Arambula. All rights reserved.
+*/
+// The next strings are used in the SettingsView
+"theColoKey" = "Mi color favorito";
+"String with spaces" = "espaaaaaaacios";
+
+
+// next in Exit View
